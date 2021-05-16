@@ -18,3 +18,7 @@ SPATIAL_SHX_FILE_PATH = os.path.join(SPATIAL_DATA_PATH, 'gsmsoilmu_a_al.shx')
 
 YANDEX_MAPS_MAX_WIDTH = 650
 YANDEX_MAPS_MAX_HEIGHT = 450
+
+MAPS_PATH = os.path.join(DATASET_PATH, 'maps')
+IMAGES_PATH = os.path.join(MAPS_PATH, 'img')
+LABELS_FILE_PATH = os.path.join(MAPS_PATH, 'labels.txt')
