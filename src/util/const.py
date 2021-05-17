@@ -16,9 +16,16 @@ SPATIAL_DBF_FILE_PATH = os.path.join(SPATIAL_DATA_PATH, 'gsmsoilmu_a_al.dbf')
 SPATIAL_SHP_FILE_PATH = os.path.join(SPATIAL_DATA_PATH, 'gsmsoilmu_a_al.shp')
 SPATIAL_SHX_FILE_PATH = os.path.join(SPATIAL_DATA_PATH, 'gsmsoilmu_a_al.shx')
 
-YANDEX_MAPS_MAX_WIDTH = 650
+YANDEX_MAPS_MAX_WIDTH = 600
 YANDEX_MAPS_MAX_HEIGHT = 450
 
 MAPS_PATH = os.path.join(DATASET_PATH, 'maps')
 IMAGES_PATH = os.path.join(MAPS_PATH, 'img')
 LABELS_FILE_PATH = os.path.join(MAPS_PATH, 'labels.txt')
+
+RANDOM_SEED = 2281488882
+VALIDATION_SPLIT = 0.2
+
+MODEL_PATH = os.path.join(PROJECT_PATH, 'model')
+BEST_WEIGHTS_FILE_PATH = os.path.join(MODEL_PATH, 'best.weights.h5')
+HISTORY_FILE_PATH = os.path.join(MODEL_PATH, 'history.csv')
